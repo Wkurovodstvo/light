@@ -1,0 +1,35 @@
+{
+  "name": "light_server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "babel-node": "babel-node --presets=@babel/preset-env",
+    "start": "nodemon --exec npm run babel-node -- ./src/index.js",
+    "build": "babel src -d dist"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.3.0",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.43.0",
+    "uuid": "^3.3.2",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "nodemon": "^1.19.4"
+  }
+}
