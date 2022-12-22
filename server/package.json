@@ -14,7 +14,7 @@
     "express-graphql": "^0.6.12",
     "express-jwt": "^5.3.1",
     "express-session": "^1.15.6",
-    "jsonwebtoken": "^8.3.0",
+    "jsonwebtoken": "^9.0.0",
     "jwt-decode": "^2.2.0",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
